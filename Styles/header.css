@@ -1,0 +1,134 @@
+.container-header{
+    box-sizing:content-box;
+    display:flex;
+    width:100vw;
+    height:50px;
+    align-items: center;
+    justify-content: center;
+    position:sticky;
+}
+.container-header-main{
+    margin: 0;
+    padding: 0;
+    box-sizing:content-box;
+    display: grid;
+    width:98%;
+    height:40px;
+    background:white;
+    grid-template-columns: 4vw 10vw 8vw 50vw 8vw 4vw 4vw 4vw 4vw;
+    background: rgb(32,32,32);
+    grid-column-gap:2px;
+}
+.item{
+    box-sizing: content-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:2px;
+    font-family: 'Roboto',sans-serif;
+}
+.item-container{
+    border-radius:50%;
+    width:100%;
+    height:100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+}
+.item-container img{
+    width: 20px;
+    height: 20px;
+}
+
+.logo-container{
+    display: flex;
+    flex-direction: row;
+}
+.logo-container-youtube{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+.logo-container-youtube img{
+    width: 24px;
+    height: 24px;
+}
+.logo-container-letras{
+    margin: 2px;
+    box-sizing: content-box;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.logo-container p{
+    font-size: 10px;
+    color:rgb(170, 170,170);
+}
+.buscador{
+    /*background:rosybrown;*/
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    box-sizing: content-box;
+}
+.buscar{
+    background:rgb(18,18,18);
+    display: flex;
+    width:75%;
+    height:80%;
+    border-radius:1px;
+    margin:1px;
+    border: rgb(49,49,49) 1px solid;
+}
+.buscar input{
+    background: rgb(18,18,18);
+    width:100%;
+    height:100%;
+    border: rgb(18,18,18) 1px solid;
+}
+.lupa{
+    display: flex;
+    background: rgb(49,49,49);
+    height:80%;
+    width:10%;
+    justify-content: center;
+    align-items: center;
+}
+.lupa img{
+    width:15px;
+    height:15px;
+}
+.voz{
+    display: flex;
+    background:black;
+    width:35px;
+    height:80%;
+    justify-content: center;
+    align-items: center;
+    box-sizing: content-box;
+    margin:0 0 0 10px;
+    border-radius:50%;
+}
+.voz img{
+    width:20px;
+    height:20px;
+}
+input{
+    box-sizing:border-box;
+    color:white;
+    font-family:'Roboto';
+    padding:10px;
+}
+.perfil{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:30px;
+    height:80%;
+    background:rgb(0,136,122);
+    border-radius:50%;
+}
+

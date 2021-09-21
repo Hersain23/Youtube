@@ -1,0 +1,17 @@
+*,::after,::before{
+    box-sizing:border-box;
+    margin: 0;
+    padding: 0;
+    color:white;
+}
+.container-main{
+    margin:0px;
+    padding:0;
+    box-sizing:border-box;
+    flex-direction: row;
+    display:flex;
+    width:100vw;
+    height:50px;
+    background: rgb(33,33,33);
+    position:fixed;
+}

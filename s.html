@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script type="text/javascript">
+
+function logStores(cookieStores) {
+  for(store of cookieStores) {
+    console.log(`Cookie store: ${store.id}\n Tab IDs: ${store.tabIds}`);
+  }
+}
+
+//var getting = window.cookieStores.getAllCookieStores();
+//getting.then(logStores);
+console.log(window.cookieStores.get("_ga"));
+
+    
+  //  getting.then(logStores);
+
+  /*
+  function cuadradoPromise(value){
+       if(typeof values !== "number"){
+         return new Promise.reject(`Error, el valor ${value} no es un numero`)
+       }
+       return new Promise((resolve,reject =>{
+         setTimeout(()=>{
+          resolve({
+            value,
+            result:value*value
+          })
+         },0|Math.random()*1000)
+       }))
+     }
+
+     async function funcionAsincrona(){
+        try{
+          console.log("Soy una funcion asincrona");
+          let obj = cuadradoPromise(0);
+          console.log(obj);
+        }catch(error){
+
+        }
+     }
+  */
+    </script>
+</body>
+</html>
+
