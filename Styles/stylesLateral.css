@@ -2,9 +2,12 @@
     display:inline-flex;
     flex-direction: row;
     margin:50px 0 0 0;
+    box-sizing: border-box;
+    width:100%;
 }
 .menu-lateral{
-    width:18vw;
+    box-sizing: border-box;
+    width:20%;
     height:auto;
     display:flex;
     position:inherit;
@@ -62,7 +65,4 @@
 .item-foto-perfil img{
     width:100%;
     border-radius:50% 50%;
-}
-.degradado{
-    
 }
