@@ -273,11 +273,25 @@
            
         </div>
             <div class="seccion-musica">
-
-                <div class="container-slider">
+                <div class="container-slider"> <!--Empieza el slid-->
                     <div class="negro"></div>
                     <div class="video">
-                    <div id="player"></div>
+                    <div id="player"></div> <!--Acaba el slider-->
+                    </div>
+                </div>
+                <div class="seccion-musica-menu">
+                    <div class="seccion-musica-menu-header">
+                        <div class="seccion-musica-menu-header-nota"><img src="Resources/nota.jpg" alt="Nota"></div>
+                        <div class="seccion-musica-menu-header-titulo">
+                            <div class="seccion-musica-menu-header-subtitulo1">Musica</div>
+                            <div class="seccion-musica-menu-header-subtitulo">115 M de suscriptres</div>
+                        </div>
+                        <div class="boton"><div class="boton-texto">SUSCRIBIRSE</div></div>
+                    </div>
+                    <div class="seccion-musica-menu-opciones">
+                        <div class="opciones">PÁGINA PRINCIPAL</div>
+                        <div class="opciones">COMUNIDAD</div>
+                        <div class="opciones">ACERCA DE</div>
                     </div>
                 </div>
             </div>
@@ -299,7 +313,19 @@ function onYouTubeIframeAPIReady() {
     videoId:'JNmDHoQviLE',
     //videoId:'q1UtTDp8egA',
     //videoId: '2nNUnkVnoTI',
-    playerVars:{'autoplay':1,'controls':0,'disablekb':1,'fs':1,'playsinline':0,'iv_load_policy':3,'modestbranding':1,'rel':0,'start':0,'end':6,'loop':1,'playlist':'JNmDHoQviLE'},
+    playerVars:{'autoplay':1,
+                'controls':0,
+                'disablekb':1,
+                'fs':1,
+                'playsinline':0,
+                'iv_load_policy':3,
+                'modestbranding':1,
+                'rel':0,
+                'start':1,
+                'end':5,
+                'loop':0,
+                'listType':'playlist',
+                'list':'PLOefJtNaG8PLk0-W-hO_V1GgEieodFbMc',},
     events:{
         'onReady':onPlayerReady
     }
