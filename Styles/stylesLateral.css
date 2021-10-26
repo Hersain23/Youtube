@@ -1,3 +1,6 @@
+body{
+    background:rgb(33, 33, 33);
+}
 .main{
     display:inline-flex;
     flex-direction: row;
@@ -8,17 +11,25 @@
 .menu-lateral{
     box-sizing: border-box;
     width:20%;
-    height:auto;
+    height:900px;
     display:flex;
     position:inherit;
     flex-direction: column;
-    overflow-y:scroll; 
+    /*overflow-y:scroll; */
     background:rgb(33, 33, 33);
     font-family: 'Roboto',sans-serif;
 }
-.menu-lateral::-webkit-scrollbar-track-piece{
-    background: red;    
-}
+.menu-lateral::-webkit-scrollbar{
+    width:5px;
+    height:900px;
+    background:rgb(33, 33, 33);
+}   
+.menu-lateral::-webkit-scrollbar-thumb{
+    background:rgb(113,113,113);
+    width:2px;
+    box-shadow:inset 11px 20px 2px hsl(0deg 0% 100% / 25%), inset -2px -2px 2px rgb(0 0 0 / 25%);
+    border-radius:5px;
+}   
 .seccion{
     display:inline-flex;
     flex-direction:column;
